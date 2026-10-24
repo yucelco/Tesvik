@@ -1,0 +1,365 @@
+{
+ "not": "NACE Rev.2 bölümleri ve örnek alt sınıflar; tam liste sonra eklenecek.",
+ "kodlar": [
+  {
+   "kod": "01",
+   "ad": "Bitkisel ve hayvansal üretim, avcılık"
+  },
+  {
+   "kod": "02",
+   "ad": "Ormancılık ve tomrukçuluk"
+  },
+  {
+   "kod": "03",
+   "ad": "Balıkçılık ve su ürünleri yetiştiriciliği"
+  },
+  {
+   "kod": "05",
+   "ad": "Kömür ve linyit çıkartılması"
+  },
+  {
+   "kod": "06",
+   "ad": "Ham petrol ve doğal gaz çıkarımı"
+  },
+  {
+   "kod": "07",
+   "ad": "Metal cevherleri madenciliği"
+  },
+  {
+   "kod": "08",
+   "ad": "Diğer madencilik ve taş ocakçılığı"
+  },
+  {
+   "kod": "09",
+   "ad": "Madenciliği destekleyici hizmet faaliyetleri"
+  },
+  {
+   "kod": "10",
+   "ad": "Gıda ürünlerinin imalatı"
+  },
+  {
+   "kod": "10.71",
+   "ad": "Ekmek; taze pastane ürünleri ve taze kek imalatı"
+  },
+  {
+   "kod": "11",
+   "ad": "İçeceklerin imalatı"
+  },
+  {
+   "kod": "12",
+   "ad": "Tütün ürünleri imalatı"
+  },
+  {
+   "kod": "13",
+   "ad": "Tekstil ürünlerinin imalatı"
+  },
+  {
+   "kod": "14",
+   "ad": "Giyim eşyalarının imalatı"
+  },
+  {
+   "kod": "15",
+   "ad": "Deri ve ilgili ürünlerin imalatı"
+  },
+  {
+   "kod": "16",
+   "ad": "Ağaç, ağaç ürünleri ve mantar ürünleri imalatı (mobilya hariç)"
+  },
+  {
+   "kod": "16.23",
+   "ad": "Bina doğramacılığı ve marangozluk ürünleri imalatı"
+  },
+  {
+   "kod": "17",
+   "ad": "Kağıt ve kağıt ürünlerinin imalatı"
+  },
+  {
+   "kod": "18",
+   "ad": "Kayıtlı medyanın basılması ve çoğaltılması"
+  },
+  {
+   "kod": "19",
+   "ad": "Kok kömürü ve rafine edilmiş petrol ürünleri imalatı"
+  },
+  {
+   "kod": "20",
+   "ad": "Kimyasalların ve kimyasal ürünlerin imalatı"
+  },
+  {
+   "kod": "21",
+   "ad": "Temel eczacılık ürünlerinin ve müstahzarlarının imalatı"
+  },
+  {
+   "kod": "22",
+   "ad": "Kauçuk ve plastik ürünlerin imalatı"
+  },
+  {
+   "kod": "23",
+   "ad": "Diğer metalik olmayan mineral ürünlerin imalatı"
+  },
+  {
+   "kod": "24",
+   "ad": "Ana metal sanayii"
+  },
+  {
+   "kod": "25",
+   "ad": "Fabrikasyon metal ürünleri imalatı (makine ve teçhizat hariç)"
+  },
+  {
+   "kod": "26",
+   "ad": "Bilgisayarların, elektronik ve optik ürünlerin imalatı"
+  },
+  {
+   "kod": "27",
+   "ad": "Elektrikli teçhizat imalatı"
+  },
+  {
+   "kod": "28",
+   "ad": "Başka yerde sınıflandırılmamış makine ve ekipman imalatı"
+  },
+  {
+   "kod": "29",
+   "ad": "Motorlu kara taşıtı, treyler ve yarı treyler imalatı"
+  },
+  {
+   "kod": "30",
+   "ad": "Diğer ulaşım araçlarının imalatı"
+  },
+  {
+   "kod": "31",
+   "ad": "Mobilya imalatı"
+  },
+  {
+   "kod": "31.01",
+   "ad": "Büro ve mağaza mobilyaları imalatı"
+  },
+  {
+   "kod": "31.02",
+   "ad": "Mutfak mobilyalarının imalatı"
+  },
+  {
+   "kod": "31.09",
+   "ad": "Diğer mobilyaların imalatı"
+  },
+  {
+   "kod": "32",
+   "ad": "Diğer imalatlar"
+  },
+  {
+   "kod": "33",
+   "ad": "Makine ve ekipmanların kurulumu ve onarımı"
+  },
+  {
+   "kod": "35",
+   "ad": "Elektrik, gaz, buhar ve iklimlendirme üretimi ve dağıtımı"
+  },
+  {
+   "kod": "36",
+   "ad": "Suyun toplanması, arıtılması ve dağıtılması"
+  },
+  {
+   "kod": "37",
+   "ad": "Kanalizasyon"
+  },
+  {
+   "kod": "38",
+   "ad": "Atığın toplanması, ıslahı ve bertarafı; geri kazanım"
+  },
+  {
+   "kod": "39",
+   "ad": "İyileştirme faaliyetleri ve diğer atık yönetimi hizmetleri"
+  },
+  {
+   "kod": "41",
+   "ad": "Bina inşaatı"
+  },
+  {
+   "kod": "42",
+   "ad": "Bina dışı yapıların inşaatı"
+  },
+  {
+   "kod": "43",
+   "ad": "Özel inşaat faaliyetleri"
+  },
+  {
+   "kod": "45",
+   "ad": "Motorlu kara taşıtları ve motosikletlerin toptan ve perakende ticareti ile onarımı"
+  },
+  {
+   "kod": "46",
+   "ad": "Toptan ticaret (motorlu kara taşıtları hariç)"
+  },
+  {
+   "kod": "47",
+   "ad": "Perakende ticaret (motorlu kara taşıtları hariç)"
+  },
+  {
+   "kod": "49",
+   "ad": "Kara taşımacılığı ve boru hattı taşımacılığı"
+  },
+  {
+   "kod": "50",
+   "ad": "Su yolu taşımacılığı"
+  },
+  {
+   "kod": "51",
+   "ad": "Hava yolu taşımacılığı"
+  },
+  {
+   "kod": "52",
+   "ad": "Taşımacılık için depolama ve destekleyici faaliyetler"
+  },
+  {
+   "kod": "53",
+   "ad": "Posta ve kurye faaliyetleri"
+  },
+  {
+   "kod": "55",
+   "ad": "Konaklama"
+  },
+  {
+   "kod": "56",
+   "ad": "Yiyecek ve içecek hizmeti faaliyetleri"
+  },
+  {
+   "kod": "58",
+   "ad": "Yayımcılık faaliyetleri"
+  },
+  {
+   "kod": "59",
+   "ad": "Sinema filmi, video ve televizyon programı yapımcılığı, ses kaydı ve müzik yayımlama"
+  },
+  {
+   "kod": "60",
+   "ad": "Programcılık ve yayıncılık faaliyetleri"
+  },
+  {
+   "kod": "61",
+   "ad": "Telekomünikasyon"
+  },
+  {
+   "kod": "62",
+   "ad": "Bilgisayar programlama, danışmanlık ve ilgili faaliyetler"
+  },
+  {
+   "kod": "63",
+   "ad": "Bilgi hizmet faaliyetleri"
+  },
+  {
+   "kod": "64",
+   "ad": "Finansal hizmet faaliyetleri (sigorta ve emeklilik hariç)"
+  },
+  {
+   "kod": "65",
+   "ad": "Sigorta, reasürans ve emeklilik fonları"
+  },
+  {
+   "kod": "66",
+   "ad": "Finansal hizmetler ile sigorta faaliyetleri için yardımcı faaliyetler"
+  },
+  {
+   "kod": "68",
+   "ad": "Gayrimenkul faaliyetleri"
+  },
+  {
+   "kod": "69",
+   "ad": "Hukuk ve muhasebe faaliyetleri"
+  },
+  {
+   "kod": "70",
+   "ad": "İdare merkezi faaliyetleri; idari danışmanlık faaliyetleri"
+  },
+  {
+   "kod": "71",
+   "ad": "Mimarlık ve mühendislik faaliyetleri; teknik test ve analiz"
+  },
+  {
+   "kod": "72",
+   "ad": "Bilimsel araştırma ve geliştirme faaliyetleri"
+  },
+  {
+   "kod": "73",
+   "ad": "Reklamcılık ve piyasa araştırması"
+  },
+  {
+   "kod": "74",
+   "ad": "Diğer mesleki, bilimsel ve teknik faaliyetler"
+  },
+  {
+   "kod": "75",
+   "ad": "Veterinerlik hizmetleri"
+  },
+  {
+   "kod": "77",
+   "ad": "Kiralama ve leasing faaliyetleri"
+  },
+  {
+   "kod": "78",
+   "ad": "İstihdam faaliyetleri"
+  },
+  {
+   "kod": "79",
+   "ad": "Seyahat acentesi, tur operatörü ve diğer rezervasyon hizmetleri"
+  },
+  {
+   "kod": "80",
+   "ad": "Güvenlik ve soruşturma faaliyetleri"
+  },
+  {
+   "kod": "81",
+   "ad": "Binalar ile ilgili hizmetler ve çevre düzenlemesi faaliyetleri"
+  },
+  {
+   "kod": "82",
+   "ad": "Büro yönetimi, büro destek ve iş destek faaliyetleri"
+  },
+  {
+   "kod": "84",
+   "ad": "Kamu yönetimi ve savunma; zorunlu sosyal güvenlik"
+  },
+  {
+   "kod": "85",
+   "ad": "Eğitim"
+  },
+  {
+   "kod": "86",
+   "ad": "İnsan sağlığı hizmetleri"
+  },
+  {
+   "kod": "87",
+   "ad": "Yatılı bakım faaliyetleri"
+  },
+  {
+   "kod": "88",
+   "ad": "Barınacak yer sağlanmaksızın verilen sosyal yardım"
+  },
+  {
+   "kod": "90",
+   "ad": "Yaratıcı sanatlar, gösteri sanatları ve eğlence faaliyetleri"
+  },
+  {
+   "kod": "91",
+   "ad": "Kütüphaneler, arşivler, müzeler ve diğer kültürel faaliyetler"
+  },
+  {
+   "kod": "92",
+   "ad": "Kumar ve müşterek bahis faaliyetleri"
+  },
+  {
+   "kod": "93",
+   "ad": "Spor faaliyetleri, eğlence ve dinlence faaliyetleri"
+  },
+  {
+   "kod": "94",
+   "ad": "Üye olunan kuruluşların faaliyetleri"
+  },
+  {
+   "kod": "95",
+   "ad": "Bilgisayarların, kişisel eşyaların ve ev eşyalarının onarımı"
+  },
+  {
+   "kod": "96",
+   "ad": "Diğer hizmet faaliyetleri"
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+  "destekler": [
+    {
+      "id": "tb-yurtdisi-fuar",
+      "ad": "Yurt Dışı Fuar Katılım Desteği (bireysel)",
+      "kurum": "TICARET",
+      "destekTuru": "hibe",
+      "konular": ["fuar", "ihracat"],
+      "mevzuat": "İhracata yönelik fuar katılım desteği kararı (doğrulanacak)",
+      "basvuruDonemi": { "tip": "surekli", "sonBasvuruKurali": "Fuar bitişinden itibaren 6 ay içinde (doğrulanacak)" },
+      "kosullar": [
+        { "alan": "ihracatciBirligiUyesi", "operator": "esit", "deger": true, "zorunlu": true, "mesaj": "İhracatçı birliği üyeliği gerekli" }
+      ],
+      "nace": [],
+      "kalemler": [
+        { "id": "stand", "ad": "Stand kirası ve dekorasyon", "oran": 0.5, "ustLimit": { "deger": 15000, "paraBirimi": "USD" }, "limitDonemi": "faaliyetBasi",
+          "kurallar": [ { "kosul": { "alan": "hedefUlke", "operator": "icinde", "deger": ["ABD", "Çin", "Hindistan", "Japonya"] }, "etki": "oranArtir", "deger": 0.1, "aciklama": "Hedef ülke: oran %60" } ] },
+        { "id": "tanitim", "ad": "Tanıtım ve katalog", "oran": 0.5, "ustLimit": { "deger": 5000, "paraBirimi": "USD" }, "limitDonemi": "faaliyetBasi",
+          "kurallar": [ { "kosul": { "alan": "hedefUlke", "operator": "icinde", "deger": ["ABD", "Çin", "Hindistan", "Japonya"] }, "etki": "oranArtir", "deger": 0.1, "aciklama": "Hedef ülke: oran %60" } ] },
+        { "id": "nakliye", "ad": "Ürün nakliyesi", "oran": 0.5, "ustLimit": { "deger": 5000, "paraBirimi": "USD" }, "limitDonemi": "faaliyetBasi" }
+      ],
+      "belgeler": ["Fatura ve ödeme belgeleri", "Stand fotoğrafları", "Katılımcı listesi"],
+      "kaynakUrl": "https://www.ticaret.gov.tr/destekler",
+      "guncellemeTarihi": "2026-10-24",
+      "dogrulandi": false,
+      "surum": 1
+    },
+    {
+      "id": "kosgeb-kobi-gelisim",
+      "ad": "KOBİ Gelişim Destek Programı (örnek)",
+      "kurum": "KOSGEB",
+      "destekTuru": "hibe",
+      "konular": ["danismanlik", "dijital"],
+      "mevzuat": "KOSGEB destek programları yönetmeliği (doğrulanacak)",
+      "basvuruDonemi": { "tip": "donemsel", "baslangic": "2026-09-01", "bitis": "2026-12-31" },
+      "programTavani": { "deger": 300000, "paraBirimi": "TRY" },
+      "kosullar": [
+        { "alan": "olcek", "operator": "icinde", "deger": ["mikro", "kucuk", "orta"], "zorunlu": true, "mesaj": "Yalnızca KOBİ'ler yararlanır" },
+        { "alan": "firmaYasi", "operator": "buyukEsit", "deger": 1, "zorunlu": false, "mesaj": "1 yaşından küçük firmalar için ek belge istenir" }
+      ],
+      "nace": [ { "kod": "64-66", "tip": "haric" }, { "kod": "68", "tip": "haric" } ],
+      "kalemler": [
+        { "id": "danismanlik", "ad": "Danışmanlık", "oran": 0.6, "ustLimit": { "deger": 150000, "paraBirimi": "TRY" }, "limitDonemi": "yillik",
+          "kurallar": [
+            { "kosul": { "alan": "bolge", "operator": "icinde", "deger": [5, 6] }, "etki": "oranArtir", "deger": 0.1, "aciklama": "5-6. bölge: +10 puan" },
+            { "kosul": { "alan": "kadinGirisimci", "operator": "esit", "deger": true }, "etki": "oranArtir", "deger": 0.1, "aciklama": "Kadın girişimci: +10 puan" }
+          ] },
+        { "id": "egitim", "ad": "Eğitim", "oran": 0.6, "ustLimit": { "deger": 50000, "paraBirimi": "TRY" }, "limitDonemi": "yillik",
+          "kurallar": [
+            { "kosul": { "alan": "bolge", "operator": "icinde", "deger": [5, 6] }, "etki": "oranArtir", "deger": 0.1, "aciklama": "5-6. bölge: +10 puan" },
+            { "kosul": { "alan": "kadinGirisimci", "operator": "esit", "deger": true }, "etki": "oranArtir", "deger": 0.1, "aciklama": "Kadın girişimci: +10 puan" }
+          ] }
+      ],
+      "kaynakUrl": "https://www.kosgeb.gov.tr",
+      "guncellemeTarihi": "2026-10-24",
+      "dogrulandi": false,
+      "surum": 1
+    },
+    {
+      "id": "sanayi-bolgesel-yatirim",
+      "ad": "Bölgesel Yatırım Teşvikleri (örnek)",
+      "kurum": "SANAYI",
+      "destekTuru": "vergiSgk",
+      "konular": ["yatirim"],
+      "mevzuat": "Yatırımlarda devlet yardımları kararı (doğrulanacak)",
+      "basvuruDonemi": { "tip": "surekli" },
+      "kosullar": [],
+      "nace": [ { "kod": "05-09", "tip": "haric" }, { "kod": "35", "tip": "haric" } ],
+      "kalemler": [
+        { "id": "vergi-indirimi", "ad": "Vergi indirimi (yatırıma katkı oranı)", "oran": 0.15, "limitDonemi": "projeBasi",
+          "kurallar": [
+            { "kosul": { "alan": "bolge", "operator": "icinde", "deger": [2, 3] }, "etki": "oranBelirle", "deger": 0.25, "aciklama": "2-3. bölge: %25" },
+            { "kosul": { "alan": "bolge", "operator": "icinde", "deger": [4, 5] }, "etki": "oranBelirle", "deger": 0.4, "aciklama": "4-5. bölge: %40" },
+            { "kosul": { "alan": "bolge", "operator": "esit", "deger": 6 }, "etki": "oranBelirle", "deger": 0.5, "aciklama": "6. bölge: %50" }
+          ] },
+        { "id": "sgk-isveren", "ad": "SGK işveren hissesi desteği", "oran": 1, "limitDonemi": "projeBasi", "sure": "Bölgeye göre 2-12 yıl (doğrulanacak)" }
+      ],
+      "kaynakUrl": "https://www.sanayi.gov.tr",
+      "guncellemeTarihi": "2026-10-24",
+      "dogrulandi": false,
+      "surum": 1
+    }
+  ],
+  "firmalar": [
+    {
+      "id": "f-ege-mobilya", "sahipUid": "u-ornek", "unvan": "Ege Mobilya Ltd. Şti. (örnek)", "sirketTuru": "ltd",
+      "il": 35, "ilce": "Bornova", "kurulusTarihi": "2014-05-12",
+      "calisanSayisi": 38, "netSatis": 80000000, "bilancoToplami": 60000000, "ihracatUsd": 1200000,
+      "ozelDurumlar": { "ihracatciBirligiUyesi": true, "kadinGirisimci": true },
+      "naceKodlari": [ { "kod": "31.01", "anaKod": true }, { "kod": "16.23", "anaKod": false } ]
+    },
+    {
+      "id": "f-van-gida", "sahipUid": "u-ornek", "unvan": "Van Gıda (örnek)", "sirketTuru": "sahis",
+      "il": 65, "kurulusTarihi": "2026-03-01",
+      "calisanSayisi": 6, "netSatis": 4000000, "bilancoToplami": 2500000, "ihracatUsd": 0,
+      "ozelDurumlar": { "ihracatciBirligiUyesi": false },
+      "naceKodlari": [ { "kod": "10.71", "anaKod": true } ]
+    }
+  ],
+  "basvurular": [
+    { "id": "b-1", "firmaId": "f-ege-mobilya", "destekId": "kosgeb-kobi-gelisim", "durum": "odemeAlindi",
+      "kalemler": [ { "kalemId": "danismanlik", "odenen": { "deger": 40000, "paraBirimi": "TRY" }, "odemeTarihi": "2026-04-15" } ] }
+  ],
+  "senaryolar": [
+    { "id": "s-1", "firmaId": "f-ege-mobilya", "destekId": "tb-yurtdisi-fuar", "ad": "2027 Las Vegas fuarı", "faaliyet": { "hedefUlke": "ABD" },
+      "kalemler": [ { "kalemId": "stand", "planlananHarcama": { "deger": 24000, "paraBirimi": "USD" } },
+                    { "kalemId": "tanitim", "planlananHarcama": { "deger": 12000, "paraBirimi": "USD" } } ] },
+    { "id": "s-2", "firmaId": "f-ege-mobilya", "destekId": "kosgeb-kobi-gelisim", "ad": "2026 dijital dönüşüm",
+      "kalemler": [ { "kalemId": "danismanlik", "planlananHarcama": { "deger": 200000, "paraBirimi": "TRY" } },
+                    { "kalemId": "egitim", "planlananHarcama": { "deger": 30000, "paraBirimi": "TRY" } } ] }
+  ],
+  "referans": {
+    "iller": [ { "plaka": 35, "ad": "İzmir", "yatirimBolgesi": 1 }, { "plaka": 65, "ad": "Van", "yatirimBolgesi": 6 } ],
+    "olcekTanimi": [
+      { "olcek": "mikro", "azamiCalisan": 9, "azamiNetSatis": 10000000, "azamiBilanco": 10000000 },
+      { "olcek": "kucuk", "azamiCalisan": 49, "azamiNetSatis": 100000000, "azamiBilanco": 100000000 },
+      { "olcek": "orta", "azamiCalisan": 249, "azamiNetSatis": 500000000, "azamiBilanco": 500000000 }
+    ],
+    "kur": { "tarih": "2026-10-24", "USD": 42.0, "EUR": 49.0, "not": "Örnek kur, TCMB'den alınacak" }
+  }
+}

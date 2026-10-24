@@ -1,0 +1,34 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Destek verisi ve referans tablolar herkese açık okunur; yalnızca yönetim paneli yazar.
+    match /destekler/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /referans/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Firmalar sahibine aittir.
+    match /firmalar/{id} {
+      allow read, delete: if request.auth != null && resource.data.sahipUid == request.auth.uid;
+      allow create, update: if request.auth != null && request.resource.data.sahipUid == request.auth.uid;
+    }
+
+    // Başvuru ve senaryolar firmaId ile firmaya bağlanır.
+    function firmaSahibi(firmaId) {
+      return request.auth != null
+        && get(/databases/$(database)/documents/firmalar/$(firmaId)).data.sahipUid == request.auth.uid;
+    }
+    match /basvurular/{id} {
+      allow read: if firmaSahibi(resource.data.firmaId);
+      allow write: if firmaSahibi(request.resource.data.firmaId);
+    }
+    match /senaryolar/{id} {
+      allow read: if firmaSahibi(resource.data.firmaId);
+      allow write: if firmaSahibi(request.resource.data.firmaId);
+    }
+  }
+}

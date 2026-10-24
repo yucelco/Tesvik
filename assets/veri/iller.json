@@ -1,0 +1,410 @@
+{
+ "not": "Yatırım bölgeleri 2012/3305 sayılı karara göredir, güncel karara göre doğrulanacak.",
+ "iller": [
+  {
+   "plaka": 1,
+   "ad": "Adana",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 2,
+   "ad": "Adıyaman",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 3,
+   "ad": "Afyonkarahisar",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 4,
+   "ad": "Ağrı",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 5,
+   "ad": "Amasya",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 6,
+   "ad": "Ankara",
+   "yatirimBolgesi": 1
+  },
+  {
+   "plaka": 7,
+   "ad": "Antalya",
+   "yatirimBolgesi": 1
+  },
+  {
+   "plaka": 8,
+   "ad": "Artvin",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 9,
+   "ad": "Aydın",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 10,
+   "ad": "Balıkesir",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 11,
+   "ad": "Bilecik",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 12,
+   "ad": "Bingöl",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 13,
+   "ad": "Bitlis",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 14,
+   "ad": "Bolu",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 15,
+   "ad": "Burdur",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 16,
+   "ad": "Bursa",
+   "yatirimBolgesi": 1
+  },
+  {
+   "plaka": 17,
+   "ad": "Çanakkale",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 18,
+   "ad": "Çankırı",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 19,
+   "ad": "Çorum",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 20,
+   "ad": "Denizli",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 21,
+   "ad": "Diyarbakır",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 22,
+   "ad": "Edirne",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 23,
+   "ad": "Elazığ",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 24,
+   "ad": "Erzincan",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 25,
+   "ad": "Erzurum",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 26,
+   "ad": "Eskişehir",
+   "yatirimBolgesi": 1
+  },
+  {
+   "plaka": 27,
+   "ad": "Gaziantep",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 28,
+   "ad": "Giresun",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 29,
+   "ad": "Gümüşhane",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 30,
+   "ad": "Hakkari",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 31,
+   "ad": "Hatay",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 32,
+   "ad": "Isparta",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 33,
+   "ad": "Mersin",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 34,
+   "ad": "İstanbul",
+   "yatirimBolgesi": 1
+  },
+  {
+   "plaka": 35,
+   "ad": "İzmir",
+   "yatirimBolgesi": 1
+  },
+  {
+   "plaka": 36,
+   "ad": "Kars",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 37,
+   "ad": "Kastamonu",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 38,
+   "ad": "Kayseri",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 39,
+   "ad": "Kırklareli",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 40,
+   "ad": "Kırşehir",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 41,
+   "ad": "Kocaeli",
+   "yatirimBolgesi": 1
+  },
+  {
+   "plaka": 42,
+   "ad": "Konya",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 43,
+   "ad": "Kütahya",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 44,
+   "ad": "Malatya",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 45,
+   "ad": "Manisa",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 46,
+   "ad": "Kahramanmaraş",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 47,
+   "ad": "Mardin",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 48,
+   "ad": "Muğla",
+   "yatirimBolgesi": 1
+  },
+  {
+   "plaka": 49,
+   "ad": "Muş",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 50,
+   "ad": "Nevşehir",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 51,
+   "ad": "Niğde",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 52,
+   "ad": "Ordu",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 53,
+   "ad": "Rize",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 54,
+   "ad": "Sakarya",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 55,
+   "ad": "Samsun",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 56,
+   "ad": "Siirt",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 57,
+   "ad": "Sinop",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 58,
+   "ad": "Sivas",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 59,
+   "ad": "Tekirdağ",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 60,
+   "ad": "Tokat",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 61,
+   "ad": "Trabzon",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 62,
+   "ad": "Tunceli",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 63,
+   "ad": "Şanlıurfa",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 64,
+   "ad": "Uşak",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 65,
+   "ad": "Van",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 66,
+   "ad": "Yozgat",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 67,
+   "ad": "Zonguldak",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 68,
+   "ad": "Aksaray",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 69,
+   "ad": "Bayburt",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 70,
+   "ad": "Karaman",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 71,
+   "ad": "Kırıkkale",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 72,
+   "ad": "Batman",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 73,
+   "ad": "Şırnak",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 74,
+   "ad": "Bartın",
+   "yatirimBolgesi": 4
+  },
+  {
+   "plaka": 75,
+   "ad": "Ardahan",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 76,
+   "ad": "Iğdır",
+   "yatirimBolgesi": 6
+  },
+  {
+   "plaka": 77,
+   "ad": "Yalova",
+   "yatirimBolgesi": 2
+  },
+  {
+   "plaka": 78,
+   "ad": "Karabük",
+   "yatirimBolgesi": 3
+  },
+  {
+   "plaka": 79,
+   "ad": "Kilis",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 80,
+   "ad": "Osmaniye",
+   "yatirimBolgesi": 5
+  },
+  {
+   "plaka": 81,
+   "ad": "Düzce",
+   "yatirimBolgesi": 4
+  }
+ ]
+}
